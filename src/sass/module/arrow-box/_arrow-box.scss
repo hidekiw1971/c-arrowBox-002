@@ -1,7 +1,8 @@
 @use "global" as *;
 .arrow-box {
   display: block;
-  width: 100%;
+  // width: 100%;
+  width: rem(1280);
   height: rem(45);
   position: fixed;
   bottom: 0;

@@ -220,7 +220,8 @@ select::-ms-expand {
 
 .arrow-box__inner {
   display: block;
-  width: 100%;
+  width: 1280px;
+  width: 80rem;
   height: 100%;
 }
 .arrow-box__link {
@@ -232,6 +233,9 @@ select::-ms-expand {
   background-color: #fff;
   overflow: hidden;
   position: relative;
+  float: right;
+  margin-right: -45px;
+  margin-right: -2.8125rem;
 }
 .arrow-box__link::before {
   content: "";
@@ -305,7 +309,8 @@ select::-ms-expand {
 
 .arrow-box {
   display: block;
-  width: 100%;
+  width: 1280px;
+  width: 80rem;
   height: 45px;
   height: 2.8125rem;
   position: fixed;
