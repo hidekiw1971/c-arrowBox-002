@@ -1,0 +1,40 @@
+@use "global" as *;
+.outside {
+  max-width: rem(1280);
+  width: 100%;
+  height: rem(3000);
+  background-color: #111;
+  margin: 0 auto;
+  position: relative;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.renge1 {
+  width: 100%;
+  height: rem(600);
+  background-color: #ff7f50;
+}
+.renge2 {
+  width: 100%;
+  height: rem(600);
+  background-color: #008000;
+}
+.renge3 {
+  width: 100%;
+  height: rem(600);
+  background-color: #e6e6fa;
+}
+.renge4 {
+  width: 100%;
+  height: rem(600);
+  background-color: #4169e1;
+}
+.renge5 {
+  width: 100%;
+  height: rem(600);
+  background-color: #ffd700;
+}
