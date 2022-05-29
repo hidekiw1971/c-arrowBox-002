@@ -3,10 +3,11 @@
   display: block;
   width: rem(45);
   height: rem(45);
-  background-color: #fff;
+  background-color: #ff69b4;
   overflow: hidden;
   position: relative;
   float: right;
+  // ↓外に出すときの指定。インナー幅内に置くときは、0か削除すれば良い。
   margin-right: rem(-45);
   @include mq(md) {
   }
